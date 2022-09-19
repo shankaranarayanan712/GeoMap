@@ -1,0 +1,40 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "way/370086151",
+            "properties": {
+                "timestamp": "2015-09-10T20:41:12Z",
+                "version": 1,
+                "changeset": 33943217,
+                "user": "z∈ℂ",
+                "uid": 361219,
+                "highway": "residential",
+                "surface": "asphalt",
+                "id": "way/370086151"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        44.815737,
+                        20.4610043
+                    ],
+                    [
+                        44.8163293,
+                        20.4605545
+                    ],
+                    [
+                        44.8167558,
+                        20.4603021
+                    ],
+                    [
+                        44.8171219,
+                        20.4601695
+                    ]
+                ]
+            }
+        }
+    ]
+}
