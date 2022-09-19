@@ -1,6 +1,6 @@
 /** @format */
 
-export const  ErrorFallback = ({ error } :{error:{message:string}}) => {
+export const ErrorFallback = ({ error }: { error: { message: string } }) => {
 	return (
 		<div role='alert'>
 			<p>Something went wrong:</p>
@@ -8,4 +8,4 @@ export const  ErrorFallback = ({ error } :{error:{message:string}}) => {
 			<p>Please try after sometime</p>
 		</div>
 	);
-}
+};

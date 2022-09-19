@@ -6,7 +6,7 @@ interface MapProps {
 	position: any;
 }
 
-function Map(props: MapProps) {
+const Map = (props: MapProps) => {
 	const { nodes, position } = props;
 	const coordinates = nodes?.coordinates;
 
@@ -32,6 +32,6 @@ function Map(props: MapProps) {
 			</MapContainer>
 		</div>
 	);
-}
+};
 
 export default Map;
